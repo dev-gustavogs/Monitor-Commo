@@ -200,3 +200,48 @@ Happy modeling!
 [0m14:42:26.397589 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000171A439E650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000171A4830290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000171A4137350>]}
 [0m14:42:26.399222 [debug] [MainThread]: Flushing usage events
 [0m14:42:28.898313 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:59:19.679073 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9F3D84C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9F1F10B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9F4E7BED0>]}
+
+
+============================== 16:59:19.699344 | 09f32743-8151-4787-a3ef-7e95a7671c38 ==============================
+[0m16:59:19.699344 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:59:19.702050 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\gusta\\Onedrive\\documentos\\extras\\ETL-Commodities', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt docs generate', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:59:19.703941 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\gusta\Onedrive\documentos\extras\ETL-Commodities\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:59:19.707567 [debug] [MainThread]: Command `dbt docs generate` failed at 16:59:19.707250 after 0.49 seconds
+[0m16:59:19.708839 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9F4E915B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9F4D95D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9F4D719D0>]}
+[0m16:59:19.710323 [debug] [MainThread]: Flushing usage events
+[0m16:59:20.529135 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:00:00.889888 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D268B34C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D266C90B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D269C23ED0>]}
+
+
+============================== 17:00:00.900572 | 5da0c67e-b9ff-4524-aa9b-c5e930ff82c6 ==============================
+[0m17:00:00.900572 [info ] [MainThread]: Running with dbt=1.9.1
+[0m17:00:00.902708 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\gusta\\Onedrive\\documentos\\extras\\ETL-Commodities', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt docs serve', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:00:00.904685 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\gusta\Onedrive\documentos\extras\ETL-Commodities\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:00:00.907656 [debug] [MainThread]: Command `dbt docs serve` failed at 17:00:00.907452 after 0.19 seconds
+[0m17:00:00.908221 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D269C395B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D269B45D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D269B219D0>]}
+[0m17:00:00.908759 [debug] [MainThread]: Flushing usage events
+[0m17:00:01.547754 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:03:42.400664 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F0C994C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F0AB20B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F0DA8BED0>]}
+
+
+============================== 17:03:42.412542 | 6c4ee8bf-cb2c-41cc-85fe-a4662bd5c9c0 ==============================
+[0m17:03:42.412542 [info ] [MainThread]: Running with dbt=1.9.1
+[0m17:03:42.414880 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\gusta\\Onedrive\\documentos\\extras\\ETL-Commodities', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt docs generate', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:03:42.416682 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\gusta\Onedrive\documentos\extras\ETL-Commodities\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:03:42.422085 [debug] [MainThread]: Command `dbt docs generate` failed at 17:03:42.421718 after 0.26 seconds
+[0m17:03:42.423378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F0DAA15B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F0D9A5D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F0D9819D0>]}
+[0m17:03:42.425011 [debug] [MainThread]: Flushing usage events
+[0m17:03:43.255590 [debug] [MainThread]: An error was encountered while trying to flush usage events
